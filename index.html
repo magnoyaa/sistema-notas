@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Notas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Sistema de Notas</h1>
+        <p>Preencha as notas para calcular a média e quanto falta para atingir 21 pontos.</p>
+
+        <div class="input-group">
+            <label for="semestre1">Média do 1º Semestre:</label>
+            <input type="number" id="semestre1" placeholder="Ex.: 7.5">
+        </div>
+
+        <div class="input-group">
+            <label for="semestre2">Média do 2º Semestre:</label>
+            <input type="number" id="semestre2" placeholder="Ex.: 8.2">
+        </div>
+
+        <button class="btn" onclick="calcularNotas()">Calcular</button>
+
+        <div class="resultado">
+            <p id="mediaAtual"></p>
+            <p id="quantoFalta"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
