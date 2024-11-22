@@ -92,3 +92,10 @@ input::placeholder {
     color: #e63946;
     text-shadow: 0 0 5px #8b0000;
 }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
